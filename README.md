@@ -1,4 +1,4 @@
-# software-process-agile-341
+# software-process-agile-341-UB2
 Software Process Project
 ----------------------------
 Members:
@@ -7,7 +7,7 @@ Members:
 
 2.	Ivan Ilyushchenko
 
-3.	Dennis Zhao Lin Liu
+3.	Dennis Zhao Lin Liu - 40015392
 
 4.	Keven Abellard
 
