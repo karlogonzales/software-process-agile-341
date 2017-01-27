@@ -7,7 +7,7 @@ Members:
 
 2.	Ivan Ilyushchenko
 
-3.	Dennis Zhao Lin Liu - 40015392
+3.	Dennis Zhao Lin Liu
 
 4.	Keven Abellard
 
