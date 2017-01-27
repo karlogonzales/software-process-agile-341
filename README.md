@@ -11,13 +11,7 @@ Members:
 
 4.	Keven Abellard
 
-5.	David Alvarez
-
-6.	Priyanka Dhananjayan
-
-7.	Ankit Rajan
-
-8.	Gabriel Harel
+5.	Ankit Rajan
 
 ----------------------------
 (Tentative) User Stories:
