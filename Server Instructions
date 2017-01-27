@@ -1,0 +1,17 @@
+#How to start server using command line
+
+cd - change directory
+
+Step 1: (Locate the directory)
+  >cd software-process-agile-341
+  
+Step 2:
+  > npm install -g angular-cli
+  
+Step 3:
+  >cd poll-app
+  
+Step 4:
+  >ng serve
+  
+ ** Open browser http://localhost:4200
