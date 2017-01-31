@@ -24,6 +24,8 @@ As a student, I want to...
 
 3. receive feedback without having to wait for the teacher to submit quiz grades.
 
+4. answer questions in real-time and see the correct answer
+
 As a teacher, I want to...
 
 1. promote student participation.
@@ -33,3 +35,5 @@ As a teacher, I want to...
 3. ensure that my students are paying attention during lecture.
 
 4. take attendance of my classes.
+
+
