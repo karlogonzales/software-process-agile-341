@@ -36,4 +36,6 @@ As a teacher, I want to...
 
 4. take attendance of my classes.
 
+5. I was to see the number of students that chose each option.
+
 
