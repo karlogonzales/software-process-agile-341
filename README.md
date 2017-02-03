@@ -13,6 +13,9 @@ Members:
 
 5.	Ankit Rajan
 
+6.  Kuan Jiang
+
+7.  Mounir Maarabani
 ----------------------------
 (Tentative) User Stories:
 
