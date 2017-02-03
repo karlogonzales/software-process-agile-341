@@ -3,17 +3,19 @@ Software Process Project
 ----------------------------
 Members:
 
-1.	Karlo Gonzales
+1.	Karlo Gonzales          --- karlo.gonzales@gmail.com
 
-2.	Ivan Ilyushchenko
+2.	Ivan Ilyushchenko       --- van.ily.md@gmail.com
 
-3.	Dennis Zhao Lin Liu
+3.	Dennis Zhao Lin Liu     --- Glasslake514@gmail.com
 
-4.	Keven Abellard
+4.	Keven Abellard          --- Keven_abellard@hotmail.com
 
-5.	Ankit Rajan
+5.	Ankit Rajan             --- ankitrajan@hotmail.com
 
-6. Kuan Jian
+6.  Kuan Jian               --- kuan.jiang@hotmail.com
+
+7.  Mounir Maarabani        --- mounirmaarabani@outlook.com
 
 ----------------------------
 (Tentative) User Stories:
