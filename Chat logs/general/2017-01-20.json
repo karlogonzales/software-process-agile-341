@@ -1,0 +1,28 @@
+[
+    {
+        "user": "U3TP1UC1X",
+        "text": "<@U3TP1UC1X|karlo.gonzales> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484939323.408740"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Welcome to Slack!",
+        "ts": "1484939482.000002"
+    },
+    {
+        "user": "U3UD8FAHZ",
+        "text": "<@U3UD8FAHZ|tramyardg> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1484945783.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Hey! So this is general chat if we have to break up the team into smaller groups I'll make additional chats",
+        "ts": "1484946142.000003"
+    }
+]

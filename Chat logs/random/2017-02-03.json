@@ -1,0 +1,33 @@
+[
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "Guys, could you post your email adresses here? I need them in order to add you all to the google calendar that I am creating",
+        "ts": "1486138249.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "<mailto:Glasslake514@gmail.com|Glasslake514@gmail.com>",
+        "ts": "1486138278.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "<mailto:Ivan.ily.md@gmail.com|Ivan.ily.md@gmail.com>",
+        "ts": "1486138282.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "<mailto:karlo.gonzales@gmail.com|karlo.gonzales@gmail.com>",
+        "ts": "1486138291.000005"
+    },
+    {
+        "user": "U40PEJQUU",
+        "text": "<@U40PEJQUU|richhomiekuan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1486138295.000006"
+    }
+]

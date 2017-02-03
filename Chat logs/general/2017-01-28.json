@@ -1,0 +1,76 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U3U0P9VT2|outofphasor> uploaded a file: <https:\/\/soen-ub2.slack.com\/files\/outofphasor\/F3X4Q32G0\/angular.t5276166.torrent|Angular.t5276166.torrent>",
+        "file": {
+            "id": "F3X4Q32G0",
+            "created": 1485632962,
+            "timestamp": 1485632962,
+            "name": "Angular.t5276166.torrent",
+            "title": "Angular.t5276166.torrent",
+            "mimetype": "application\/octet-stream",
+            "filetype": "binary",
+            "pretty_type": "Binary",
+            "user": "U3U0P9VT2",
+            "editable": false,
+            "size": 46486,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T3TP1UBRP-F3X4Q32G0\/angular.t5276166.torrent?t=xoxe-129783963873-136747841186-136068221633-2049518ea8",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T3TP1UBRP-F3X4Q32G0\/download\/angular.t5276166.torrent?t=xoxe-129783963873-136747841186-136068221633-2049518ea8",
+            "permalink": "https:\/\/soen-ub2.slack.com\/files\/outofphasor\/F3X4Q32G0\/angular.t5276166.torrent",
+            "permalink_public": "https:\/\/slack-files.com\/T3TP1UBRP-F3X4Q32G0-22c6a40bc4",
+            "channels": [
+                "C3V4HFC4F"
+            ],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U3U0P9VT2",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "<@U3U0P9VT2|outofphasor>",
+        "bot_id": null,
+        "ts": "1485632963.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "whoever might need the video intro to angluar 2",
+        "ts": "1485633009.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "<https:\/\/www.youtube.com\/shared?ci=joFWNQpKI0Q>",
+        "attachments": [
+            {
+                "service_name": "YouTube",
+                "title": "Angular 2 Tutorial - Complete Introduction - Angular 2 CLI Setup, Components, Databinding - YouTube",
+                "title_link": "https:\/\/www.youtube.com\/shared?ci=joFWNQpKI0Q",
+                "text": "skyde32 shared a video",
+                "fallback": "YouTube: Angular 2 Tutorial - Complete Introduction - Angular 2 CLI Setup, Components, Databinding - YouTube",
+                "thumb_url": "https:\/\/i.ytimg.com\/vi\/DBjPIabiRNg\/maxresdefault.jpg",
+                "from_url": "https:\/\/www.youtube.com\/shared?ci=joFWNQpKI0Q",
+                "thumb_width": 1280,
+                "thumb_height": 720,
+                "service_icon": "https:\/\/s.ytimg.com\/yts\/img\/favicon-vflz7uhzw.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1485633258.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "That's the video I watched",
+        "ts": "1485633273.000006"
+    }
+]

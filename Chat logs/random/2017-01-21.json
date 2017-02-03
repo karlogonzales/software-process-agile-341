@@ -1,0 +1,52 @@
+[
+    {
+        "user": "U3U0P9VT2",
+        "text": "<@U3U0P9VT2|outofphasor> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485029162.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Ok so far its three of us here.",
+        "ts": "1485029506.000003"
+    },
+    {
+        "user": "U3UN38N02",
+        "text": "<@U3UN38N02|dizedel> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485039933.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Im just going to post here things\/reminders i find useful, ignore if its smth obvious to u :slightly_smiling_face:",
+        "ts": "1485044622.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "From the 2nd tutorial, each team has 20 to 25 minutes on average to meet with your TA.\nRemember: Your TA is your customer.\nDiscuss the needed features from your TA. Convince your TA the value of your feature. Ask feedback of the software from your TA. Let your TA try out your software.\nEach sprint is evaluated by TA during tutorial.",
+        "ts": "1485044628.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Sprint 1: Setting up the running environment.\nSprint 2: Feature implementation. Setting up testing infrastructure and continuous integration infrastructure.\nSprint 3: More feature with user feedback (from TA). Sprint 4: Bug fixing, more TA\u2019s feedback.\nSprint 5: Testing and wrap up.",
+        "ts": "1485044646.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Final delivery:",
+        "ts": "1485044748.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Documentation:\nBased on the material in github.\nMiss-matching information between github and the final documentation will not be considered and final delivery mark will be reduced.\nSource code:\nThe source code snapshot of the release will be evaluated.",
+        "ts": "1485044749.000009"
+    }
+]
