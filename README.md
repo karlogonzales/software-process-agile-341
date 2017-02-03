@@ -40,4 +40,6 @@ As a teacher, I want to...
 
 6. be able to see how many present students are not answering the questions so I can see which topics creates the most confusion within the students
 
+6. I want to be able to see how many present students are not answering the questions
+
 
