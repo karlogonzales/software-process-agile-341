@@ -26,6 +26,8 @@ As a student, I want to...
 
 4. answer questions in real-time and see the correct answer
 
+5. ask pertinent questions in real time without having to shout them though the whole classroom.
+
 As a teacher, I want to...
 
 1. promote student participation.
@@ -38,4 +40,4 @@ As a teacher, I want to...
 
 5. I want to see the number of students that chose each option.
 
-
+6. I would like to have a feedback by the end of every class/tutorial I teach, so as I would be able to improve my lecture notes.  
