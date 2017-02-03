@@ -38,4 +38,6 @@ As a teacher, I want to...
 
 5. I want to see the number of students that chose each option.
 
+6. I want to be able to see how many present students are not answering the questions
+
 
