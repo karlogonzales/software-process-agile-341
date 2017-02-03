@@ -13,6 +13,8 @@ Members:
 
 5.	Ankit Rajan
 
+6. Kuan Jian
+
 ----------------------------
 (Tentative) User Stories:
 
