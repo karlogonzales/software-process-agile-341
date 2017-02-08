@@ -14,6 +14,11 @@ Members:
 5.	Ankit Rajan
 
 ----------------------------
+Trello Scrum Board:
+
+https://trello.com/b/aChMHfwb
+
+---------------------------
 (Tentative) User Stories:
 
 As a student, I want to...
