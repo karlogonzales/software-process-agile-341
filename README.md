@@ -13,6 +13,8 @@ Members:
 
 5.	Ankit Rajan
 
+6.  Kuan Jiang
+
 ----------------------------
 Trello Scrum Board:
 
