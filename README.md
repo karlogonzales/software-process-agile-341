@@ -18,7 +18,7 @@ Members:
 
 As a student, I want to...
 
-1. be able to respond to the teacher's questions anonymously.
+1. be able to respond to the teacher's questions anonymously(towards peers).
 
 2. test my understanding of the materials in class.
 
@@ -34,10 +34,6 @@ As a teacher, I want to...
 
 3. ensure that my students are paying attention during lecture.
 
-4. take attendance of my classes.
+4. I want to see the number of students that chose each option.
 
-5. I want to see the number of students that chose each option.
-
-6. I want to be able to see how many present students are not answering the questions
-
-
+5. I should be able to save my questions. 
