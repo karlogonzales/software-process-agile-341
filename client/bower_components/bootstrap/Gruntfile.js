@@ -430,8 +430,8 @@ module.exports = function (grunt) {
   });
 
 
-  // These plugins provide necessary tasks.
-  require('load-grunt-tasks')(grunt, { scope: 'devDependencies' });
+  // These plugins provide necessary questions.
+  require('load-grunt-questions')(grunt, { scope: 'devDependencies' });
   require('time-grunt')(grunt);
 
   // Docs HTML validation task
