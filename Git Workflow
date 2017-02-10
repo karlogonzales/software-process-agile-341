@@ -1,0 +1,14 @@
+Git Workflow (Command Line)
+
+Download Git
+
+-- https://git-scm.com/downloads --
+
+Find Directory
+    
+    >cd software-process-agile-341
+    
+Update local master
+
+   >git checkout master
+   >git 
