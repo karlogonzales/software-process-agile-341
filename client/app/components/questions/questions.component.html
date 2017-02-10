@@ -1,0 +1,19 @@
+<form class="well" (submit)="addQuestion($event)">
+      <div class="form-group">
+        <input type="text" [(ngModel)]="title" name="title" class="form-control" placeholder="Add Question...">    
+      </div>  
+</form>
+
+<div class="question-list">
+    <div *ngFor="let question of questions">
+        
+        
+        <div class="col-md-7">
+            {{question.title}}    
+        </div> 
+        <div class="col-md-4">
+            <input type="button" (click)="deleteQuestion(question._id)" value="Delete" class="btn btn-danger">
+        </div>
+        <br><br>
+    </div>
+</div>

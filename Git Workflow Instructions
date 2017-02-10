@@ -1,0 +1,52 @@
+Git Workflow (Command Line)
+
+Download Git
+
+--------------------------------
+
+https://git-scm.com/downloads
+
+--------------------------------
+
+Find Directory
+    >cd software-process-agile-341
+
+
+Update local master
+   >git checkout master
+   >git pull
+
+
+Create new local branch
+   >git branch <branch name>
+
+            OR
+
+Update local branch
+   >git checkout <branch name>
+   >git merge master
+
+
+** Make updates to the code **
+
+
+View file tracking status
+   >git status
+
+
+Add files to tracking
+   >git add --all
+
+
+Commit files to branch
+   >git commit -m "Write a message here"
+
+
+Push to your Branch
+   >git push
+   (Upstream warning might appear, copy, paste and enter the code it returns)
+
+
+Review
+   -- Go to GitHub
+   -- Create new Pull Request
