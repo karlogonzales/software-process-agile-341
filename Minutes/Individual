@@ -13,6 +13,7 @@
   -Created question component
   -Created question services to update question title in db 
   -Debugged 
+  -Updated Server Instructions
   -Updated Trello with new user stories and tasks
   
  09/02/2017 - Back End - Karlo
@@ -21,7 +22,7 @@
   -Created database
   -Created Question object within database
   -Linked database to server.js
-  -Created routing and get functions 
+  -Created routing and get functions
   -Pushed updated to branch karlo
    
 
