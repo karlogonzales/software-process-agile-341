@@ -6,14 +6,22 @@
   -Added minutes
   -Reviewed database
   
+ 10/02/2017 - Back End - Karlo
+  -Added Bootstrap library
+  -Added Angular 2 support
+  -Created basic question entry ui
+  -Created question component
+  -Created question services to update question title in db 
+  -Debugged 
+  
  09/02/2017 - Back End - Karlo
   
-   -Implemented NodeJS dependencies
-   -Created database
-   -Created Question object within database
-   -Linked database to server.js
-   -Created routing and get functions 
-   -Pushed updated to branch karlo
+  -Implemented NodeJS dependencies
+  -Created database
+  -Created Question object within database
+  -Linked database to server.js
+  -Created routing and get functions 
+  -Pushed updated to branch karlo
    
 
 08/02/2017 - General - Karlo, Kuan
