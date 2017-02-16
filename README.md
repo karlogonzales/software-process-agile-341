@@ -29,13 +29,13 @@ As a student, I want to...
 
 2. receive feedback on the accuracy of my answers from my teacher so I dont have to wait for quiz to test my understanding of the subject
 
-3. Be able to change my answer so that my answer can elvove with my understanding of the question
+3. Be able to change my answer so that my answer can evolve with my understanding of the question
 
 As a teacher, I want to...
 
 1. be able to ask multiple choice questions about the lecture topics, so that I can test the understanding of my students of the lecture's material
 
-2. see the number of students that chose each option so I can see which percentage of the class understand the topics, and where does people make mistakes
+2. see the number of students that chose each option so I can see which percentage of the class understand the topics, and where people make mistakes
 
 3. [that] each of my student to answer the question only once, so that I can have accurate results in the analytics of the questions
 
