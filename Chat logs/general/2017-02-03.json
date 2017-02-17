@@ -1,0 +1,81 @@
+[
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Hey guys I'm going to be free after the lecture and will be working on our project till our tutorial. Let me know if you want to meet up.",
+        "ts": "1486133743.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3XK3T0P6",
+        "text": "I have class right after, i can meet you at 11:45",
+        "ts": "1486133788.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "Im down with that. I havent had time to have breakfast tho, so ill grab some food, but we can meet somewhere in hall after the lecture",
+        "ts": "1486133804.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Sounds good! ",
+        "ts": "1486133917.000005"
+    },
+    {
+        "user": "U40PEJQUU",
+        "text": "<@U40PEJQUU|richhomiekuan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1486138295.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3XK3T0P6",
+        "text": "Where are you guys?",
+        "ts": "1486139598.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "were in a room",
+        "ts": "1486140389.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "on the hall 8th floor",
+        "ts": "1486140392.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "i think its h860.03",
+        "ts": "1486140401.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "like there is a small corridor next to the elevators",
+        "ts": "1486140412.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "facing the elevator*",
+        "ts": "1486140417.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "were in there",
+        "ts": "1486140422.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3XK3T0P6",
+        "text": "Alright thanks",
+        "ts": "1486140601.000014"
+    }
+]

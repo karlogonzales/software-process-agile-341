@@ -1,0 +1,43 @@
+10/02/2017 - [meeting]Team Meeting 4 (with TA) - Karlo, Dennis, Keven, Ivan, Kuan
+  - Missing: Ankit
+  -discussed that we have to
+    > Add individual workload summary
+    > Find potential test cases for the system
+    > Start adding tags for the system
+      o Look up git tags
+    > User stories break down
+      o Point (Scrum poker)
+      o Risk
+      o Priority
+      o Breakdown chart
+    > To do for the end of the sprint
+      o Improve the system further than its current state
+      o Have an admin system
+      o two different interface (One for the TA, one for the students)
+      o Story description
+      o plan of what were going to do during sprint #3
+      o Git tags in  commit log
+      o Everybody needs to be there (absentees looses grades)
+
+10/02/2017 - Team meeting 3 - Karlo, Keven 
+  - Preparing meeting with the TA
+  - Learning Git 
+
+03/02/2017 - Team Meeting 2 - Karlo, Dennis, Ivan, Quan, Kevin, Ankit
+
+  -Emphasis on the importants of writing minits of each meeting
+  -Write a log of who work on what up until now on everything
+  -Make a task break-down of who will work on each feature
+  -Make a short description of the implementation of each user stories
+  -Look up (maybe implement) travis CL
+
+
+27/01/2017 - Team Meeting 1 - Ankit, Dennis, Ivan, Karlo, Keven
+
+  -Discussed the poll web app idea
+  -Discussed the framework needed to implement the idea
+  -Discussed possible polling api
+  -Discussed individual specialites
+  -Discussed research topics to look over by the following week 
+  -Got to know each other
+

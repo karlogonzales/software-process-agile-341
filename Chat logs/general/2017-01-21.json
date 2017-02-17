@@ -1,0 +1,22 @@
+[
+    {
+        "user": "U3U0P9VT2",
+        "text": "<@U3U0P9VT2|outofphasor> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485029162.000002"
+    },
+    {
+        "user": "U3UN38N02",
+        "text": "<@U3UN38N02|dizedel> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485039933.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "According to professor: Team leader needs to be confirmed on the first tutorial.  Any candidacy as of yet?  :slightly_smiling_face:",
+        "ts": "1485047667.000004"
+    }
+]

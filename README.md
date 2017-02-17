@@ -13,31 +13,36 @@ Members:
 
 5.	Ankit Rajan
 
+6.  Kuan Jiang
+
 ----------------------------
+Trello Scrum Board:
+
+https://trello.com/b/aChMHfwb
+
+---------------------------
 (Tentative) User Stories:
 
 As a student, I want to...
 
-1. be able to respond to the teacher's questions anonymously.
+1. be able to respond to the teacher's questions anonymously (towards my peers) so that I can answer without fearing the judgement of my peers
 
-2. test my understanding of the materials in class.
+2. receive feedback on the accuracy of my answers from my teacher so I dont have to wait for quiz to test my understanding of the subject
 
-3. receive feedback without having to wait for the teacher to submit quiz grades.
-
-4. answer questions in real-time and see the correct answer
+3. Be able to change my answer so that my answer can evolve with my understanding of the question
 
 5. ask pertinent questions in real time without having to shout them though the whole classroom.
 
 As a teacher, I want to...
 
-1. promote student participation.
+1. be able to ask multiple choice questions about the lecture topics, so that I can test the understanding of my students of the lecture's material
 
-2. check my students' knowledge.
+2. see the number of students that chose each option so I can see which percentage of the class understand the topics, and where people make mistakes
 
-3. ensure that my students are paying attention during lecture.
+3. [that] each of my student to answer the question only once, so that I can have accurate results in the analytics of the questions
 
-4. take attendance of my classes.
+4. be able to implement a time limit so that I can control the amount of time spent on each question
 
-5. I want to see the number of students that chose each option.
+5. I would like to have a feedback by the end of every class/tutorial I teach, so as I would be able to improve my lecture notes.  
 
-6. I would like to have a feedback by the end of every class/tutorial I teach, so as I would be able to improve my lecture notes.  
+6. be able to save my questions

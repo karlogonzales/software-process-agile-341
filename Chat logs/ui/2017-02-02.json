@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U3TP1UC1X",
+        "text": "<@U3TP1UC1X|karlo.gonzales> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1486052550.000002"
+    },
+    {
+        "user": "U3TP1UC1X",
+        "purpose": "Discussions concerning the state of UI",
+        "text": "<@U3TP1UC1X|karlo.gonzales> set the channel purpose: Discussions concerning the state of UI",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1486052551.000003"
+    }
+]

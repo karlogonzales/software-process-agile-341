@@ -1,0 +1,49 @@
+[
+    {
+        "user": "U3TP1UC1X",
+        "text": "<@U3TP1UC1X|karlo.gonzales> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485541312.000002"
+    },
+    {
+        "user": "U3TP1UC1X",
+        "purpose": "Angular 2 resources and discusion",
+        "text": "<@U3TP1UC1X|karlo.gonzales> set the channel purpose: Angular 2 resources and discusion",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1485541312.000003"
+    },
+    {
+        "user": "U3U0P9VT2",
+        "inviter": "U3TP1UC1X",
+        "text": "<@U3U0P9VT2|outofphasor> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485541332.000004"
+    },
+    {
+        "user": "U3X0369CN",
+        "inviter": "U3TP1UC1X",
+        "text": "<@U3X0369CN|kabellard> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485541332.000005"
+    },
+    {
+        "user": "U3XK3T0P6",
+        "inviter": "U3TP1UC1X",
+        "text": "<@U3XK3T0P6|ankitrajan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485541332.000006"
+    },
+    {
+        "user": "U3UN38N02",
+        "inviter": "U3TP1UC1X",
+        "text": "<@U3UN38N02|dizedel> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485541332.000007"
+    }
+]

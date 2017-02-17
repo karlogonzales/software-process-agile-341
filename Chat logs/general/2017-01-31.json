@@ -1,0 +1,164 @@
+[
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Hey guys, just checking in with everyone. How is the learning going?",
+        "ts": "1485897750.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "also i think our user stories are too general",
+        "ts": "1485898027.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "shouldnt they be more on the lines of,  As a teacher, I was to see the number of students that answered for each multiple choice.",
+        "ts": "1485898459.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "?",
+        "ts": "1485898468.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "I cant access our github",
+        "ts": "1485898544.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "gimme 2 sec",
+        "ts": "1485898546.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "aight",
+        "ts": "1485898612.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "I feel like you're right on the fact that our stories are not precise enough, sice they're supposed to explain features accuratly, so on the teacher side, i feel like we could put the one that you wrote instead of #2",
+        "ts": "1485898799.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "#1 and #3 are kinda iffy, since they dont explicitly explain a feature of our project",
+        "ts": "1485898838.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "what do you guys think?",
+        "ts": "1485898842.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "yeah i agree",
+        "ts": "1485898844.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Like I think that the user story should correlate directly to a feature",
+        "ts": "1485898868.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "what feature do we want to implement? I can think of\nTeacher side: \n1- The teacher is able to ask question during class\n2- The teacher can see stats about his class attendances\n3- the teacher can see basic stats about the students answer\nStudent side:\n1-The ablility to show attendance\n2- The ability to answer question (anonymously?)",
+        "ts": "1485899222.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "I agree",
+        "ts": "1485900693.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "How many features do we need to have?",
+        "ts": "1485900715.000016"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "cause if we list all the feature that we want",
+        "ts": "1485900721.000017"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "as many as u want to build lol",
+        "ts": "1485900724.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "doesnt the teacher want a certain amount of user stories?",
+        "ts": "1485900742.000019"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "good question",
+        "ts": "1485900748.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "also im not exactly sure how we would keep track of student attendance if we dont have a login",
+        "ts": "1485900794.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "oh also, as a teacher,, I want each student to be able to only answer once",
+        "ts": "1485900868.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "also, as a teacher I would like to implement a time limit",
+        "ts": "1485900913.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "as a student I would like to be able to change my answer",
+        "ts": "1485900933.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "those are good.\n\nBut if we want a timer, a counter and stuff, wouldnt that require a server?",
+        "ts": "1485902616.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "The timer can be done in Javascript, no need for a server ",
+        "ts": "1485905167.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "how about the counter, to take care of attendance?",
+        "ts": "1485907438.000027"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "If it cant be done without any kind of server side operation, do we cut this feature?",
+        "ts": "1485907474.000028"
+    }
+]

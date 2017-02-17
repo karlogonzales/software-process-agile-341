@@ -1,0 +1,102 @@
+[
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "so we're in agreement for the pooling system?",
+        "ts": "1485535795.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "I'm fine with it",
+        "ts": "1485535818.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "all right",
+        "ts": "1485535837.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "btw we're meeting the TA at 12:35! dont forget peeps",
+        "ts": "1485535852.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Was just going to say that lol",
+        "ts": "1485535865.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "were do we meet him btw?",
+        "ts": "1485535892.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "yeah I'm already there",
+        "ts": "1485535899.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "H811",
+        "ts": "1485535904.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3X0369CN",
+        "text": "aight",
+        "ts": "1485535933.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "12:35?? I have 12:55 written in my calendar from the last tutorial!? What the heck?",
+        "ts": "1485538827.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "np, the TA is still talking to the first group",
+        "ts": "1485538933.000012"
+    },
+    {
+        "user": "U3XK3T0P6",
+        "text": "<@U3XK3T0P6|ankitrajan> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1485541163.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "<https:\/\/www.udemy.com\/the-complete-guide-to-angular-2\/>",
+        "attachments": [
+            {
+                "service_name": "Udemy",
+                "title": "Angular 2 - The Complete Guide - Udemy",
+                "title_link": "https:\/\/www.udemy.com\/the-complete-guide-to-angular-2\/",
+                "text": "Learn how to create modern web applications with the successor of Angular.js",
+                "fallback": "Udemy: Angular 2 - The Complete Guide - Udemy",
+                "thumb_url": "https:\/\/udemy-images.udemy.com\/course\/480x270\/756150_c033.jpg",
+                "from_url": "https:\/\/www.udemy.com\/the-complete-guide-to-angular-2\/",
+                "thumb_width": 480,
+                "thumb_height": 270,
+                "service_icon": "https:\/\/www.udemy.com\/staticx\/udemy\/images\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485542118.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "To get started, i do have this course for free",
+        "ts": "1485542138.000016"
+    }
+]

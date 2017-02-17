@@ -1,0 +1,66 @@
+15/02/2017 - General - Karlo
+  -Added backlog column to Trello
+  -Updated user story point values
+  -Added Ankit to Trello
+  -Reviewed Ankit pull request
+  -Researched Nodejs post/get functions
+
+14/02/2017 - General - Dennis
+  -Added descriptions of user stories on Trello board
+
+10/02/2017 - General - Kuan, Ivan
+  -Reviewed webprogramming basics (HTML, CSS, etc.)
+  -Researched angular
+  -Reviewed and approved pull request
+  -Updated minutes
+  
+10/02/2017 - General - Ankit, Rajan
+
+  -Listened to tutorials of Angular 2
+  -Modified stories
+  -Added minutes
+  -Reviewed database
+  
+ 10/02/2017 - Back End/ General - Karlo
+  -Added Bootstrap library
+  -Added Angular 2 support
+  -Created basic question entry ui
+  -Created question component
+  -Created question services to update question title in db 
+  -Debugged 
+  -Updated Server Instructions
+  -Created Git Workflow Instructions
+  -Updated Trello with new user stories and tasks
+  
+ 09/02/2017 - Back End - Karlo
+  
+  -Implemented NodeJS dependencies
+  -Created database
+  -Created Question object within database
+  -Linked database to server.js
+  -Created routing and get functions
+  -Pushed updated to branch karlo
+   
+
+08/02/2017 - General - Karlo, Kuan
+
+  -Created Trello SCRUM Board
+  -Discussed operating procedure for Trello
+  -Updated User Stories
+  -Broke down each User Story into individual tasks
+  -Discussed the general function of the web app
+  -Discussed the operation of the web app
+  -Discussed how to link the database to the web app
+  -Demoed test MEAN stack project
+  -Discussed UI design
+  -Familiarized Quan with Bootstrap
+
+04/02/2017 - General - Keven
+
+  -Researched Angular 2
+  -Reseached MEAN stack
+  -Discussed user stories
+  
+27/01/2017 - General - Dennis
+
+  -Added tentative user stories
