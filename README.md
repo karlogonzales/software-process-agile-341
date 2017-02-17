@@ -25,21 +25,28 @@ https://trello.com/b/aChMHfwb
 
 As a student, I want to...
 
-1. be able to respond to the teacher's questions anonymously (towards my peers) so that I can answer without fearing the judgement of my peers
+1. be able to change my answers, so that I can be sure to answer the question accurately.
 
-2. receive feedback on the accuracy of my answers from my teacher so I dont have to wait for quiz to test my understanding of the subject
-
-3. Be able to change my answer so that my answer can elvove with my understanding of the question
+2. be able to answer my teachers question, to test my understanding of the class.
 
 As a teacher, I want to...
 
-1. be able to ask multiple choice questions about the lecture topics, so that I can test the understanding of my students of the lecture's material
+1. my question to be secure, so that I am the only one that is able to see them (Strech Goals)
 
-2. see the number of students that chose each option so I can see which percentage of the class understand the topics, and where does people make mistakes
+2. present questions to the classes, so that my question can see what I am asking them.
 
-3. [that] each of my student to answer the question only once, so that I can have accurate results in the analytics of the questions
+3. to create private quiz rooms so that only my students (or people with the link) can access them
 
-4. be able to implement a time limit so that I can control the amount of time spent on each question
+4. see how many people answered the question to be able to monitor the progress of the class.
 
-5. be able to save my questions
+5. make sure that student cannot answer twice, so that the statistics cannot be falsified
 
+6. be able to access a breakdown of the answers, so that I can monitor the class progress.
+
+7. be able to re-use my questions, so I can ask them to multiples group of students
+
+8. only ask multiple choices questions to the students, to facilitate the reading of statistics
+
+9. to be compatible with mobile, so my students can participate in the quizzes, even if they dont have acces to a laptop
+
+10. acces the application from anywhere, so I can acces my quizzes from any computer
