@@ -1,6 +1,7 @@
+
 10/02/2017 - [meeting]Team Meeting 4 (with TA) - Karlo, Dennis, Keven, Ivan, Kuan
-  - Missing: Ankit
-  -discussed that we have to
+   *** Missing: Ankit ***
+  -Discussed tasks
     > Add individual workload summary
     > Find potential test cases for the system
     > Start adding tags for the system
@@ -23,13 +24,20 @@
   - Preparing meeting with the TA
   - Learning Git 
 
-03/02/2017 - Team Meeting 2 - Karlo, Dennis, Ivan, Quan, Kevin, Ankit
+03/02/2017 - Team Meeting 2 - Karlo, Dennis, Ivan, Kuan, Kevin, Ankit
 
   -Emphasis on the importants of writing minits of each meeting
   -Write a log of who work on what up until now on everything
   -Make a task break-down of who will work on each feature
   -Make a short description of the implementation of each user stories
   -Look up (maybe implement) travis CL
+  -Got to know team members strengths
+  -Reviewed sprint 1 meeting with TA
+  -Researched TravisCI
+  -Discussed completed tasks
+  -Introduced new members to the project
+  -Simplified user stories
+  -Assigned points to some user stories
 
 
 27/01/2017 - Team Meeting 1 - Ankit, Dennis, Ivan, Karlo, Keven
