@@ -2,11 +2,14 @@
  
  Sprint #3 (17/02/17 - 03/03/17)
    o Have an admin system
-   o two different interface (One for the TA, one for the students)
-   o Git tags in  commit log
-   o Everybody needs to be there (absentees looses grades)
+   o two different interface/page (One for the TA, one for the students)
+     -Student page should have function to fetch questions from DB
+     -Student page should have function to display questions from DB
+     -TA page should have function to add questions to DB
+   o Git tags in commit log
    o Upload app to hosted website and configure
    o Implement a testing scheme
+   o Everybody needs to be there (absentees looses grades)
  
  Sprint #2 (03/02/17 - 17/02/17)
    o Improve the system further than its current state
