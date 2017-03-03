@@ -1,0 +1,25 @@
+{
+  "name": "software-process-agile-341",
+  "version": "1.0.0",
+  "description": "Classroom Poll Web App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlogonzales/software-process-agile-341.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlogonzales/software-process-agile-341/issues"
+  },
+  "homepage": "https://github.com/karlogonzales/software-process-agile-341#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "mongojs": "^2.4.0"
+  }
+}

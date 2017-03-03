@@ -1,0 +1,102 @@
+[
+    {
+        "id": "C3XEV3LBD",
+        "name": "angular2",
+        "created": "1485541312",
+        "creator": "U3TP1UC1X",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U3TP1UC1X",
+            "U3U0P9VT2",
+            "U3UN38N02",
+            "U3X0369CN",
+            "U3XK3T0P6"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Angular 2 resources and discusion",
+            "creator": "U3TP1UC1X",
+            "last_set": "1485541312"
+        }
+    },
+    {
+        "id": "C3V4HFC4F",
+        "name": "general",
+        "created": "1484939324",
+        "creator": "U3TP1UC1X",
+        "is_archived": false,
+        "is_general": true,
+        "members": [
+            "U3TP1UC1X",
+            "U3U0P9VT2",
+            "U3UD8FAHZ",
+            "U3UN38N02",
+            "U3X0369CN",
+            "U3XK3T0P6",
+            "U40PEJQUU"
+        ],
+        "topic": {
+            "value": "Company-wide announcements and work-based matters",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "This channel is for team-wide communication and announcements. All team members are in this channel.",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C3V46JTM4",
+        "name": "random",
+        "created": "1484939324",
+        "creator": "U3TP1UC1X",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U3TP1UC1X",
+            "U3U0P9VT2",
+            "U3UD8FAHZ",
+            "U3UN38N02",
+            "U3X0369CN",
+            "U3XK3T0P6",
+            "U40PEJQUU"
+        ],
+        "topic": {
+            "value": "Non-work banter and water cooler conversation",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C40QCC1D5",
+        "name": "ui",
+        "created": "1486052550",
+        "creator": "U3TP1UC1X",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U3TP1UC1X"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Discussions concerning the state of UI",
+            "creator": "U3TP1UC1X",
+            "last_set": "1486052551"
+        }
+    }
+]

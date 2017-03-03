@@ -1,0 +1,185 @@
+[
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "So are we set on a polling webapp?",
+        "ts": "1485465438.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Well, the idea is certainly welcoming and i\u2019d gladly go for it. There could be many alternatives though, i dont know what TA  will demand as his requirements. I could easily propose the \u201cOnline assignment submission system\u201d where students login and upload their work for grading, like moodle does.",
+        "ts": "1485467997.000002"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "I have had this TA in a previous class and he rarely seems to know what is going on lol I'm almost certain we can propose anything. Any other ideas? We can propose multiple ",
+        "ts": "1485468115.000003"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "At the moment we have an i-clicker style web app \/ assignment submission system. My argument for i-clicker web app is that the assignment submission is already in use.",
+        "ts": "1485468271.000004"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Well, here is the question, did the teacher specified that our prj should have rather unique features or can we just reimplement some of the Moodle like functionality?",
+        "ts": "1485468589.000005"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "I had a feeling this is mostly about documentation and the choice is really not a big deal",
+        "ts": "1485468622.000006"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "The professor said that the software we make has to be a tool for the TA",
+        "ts": "1485468630.000007"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "depends for which class",
+        "ts": "1485468658.000008"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "for our class?",
+        "ts": "1485468665.000009"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Renne Witte",
+        "ts": "1485468670.000010"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "The TA said e learning like moddle and the prof said e-learning rlly means a tool for the TA lol",
+        "ts": "1485468720.000011"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Because most TA\u2019s for my elec classes wouldnt mind electronic lab submission system. but for no lab soen341, i have no idea what he might need :slightly_smiling_face: except may be for polling which is always a fun tool.",
+        "ts": "1485468826.000012"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Isn't eas an electronic submission website?",
+        "ts": "1485468902.000013"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Yeah we are supposed to discuss on Friday with the TA as if he is a client to determine what he would like.",
+        "ts": "1485468952.000014"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "So we can go with a couple of ideas and work it out with him! Polling site would be pretty easy to make tho. Actually so would a electronic submission site lol",
+        "ts": "1485469033.000015"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Either idea is good!",
+        "ts": "1485469037.000016"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "Ok it could also assemble the evaluation stats on how perceptually useful(1 to 10) every tutorial had been, using same polling system.",
+        "ts": "1485469137.000017"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "yeah I sure this should be enough to start with him :slightly_smiling_face:",
+        "ts": "1485469182.000018"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Well with a polling system u can also question the class with multiple choice questions. ",
+        "ts": "1485469490.000019"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "And see in real time the answer distribution. Giving u insight on how prepared the class is",
+        "ts": "1485469519.000020"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "yeah thats for sure, i experienced that approach in concordia biology classes before.",
+        "ts": "1485470142.000021"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "A polling system would be useful for both the TA and the students so that should fit either of their definition of an e-learning system",
+        "ts": "1485470182.000022"
+    },
+    {
+        "type": "message",
+        "user": "U3U0P9VT2",
+        "text": "yep",
+        "ts": "1485470237.000023"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "How are we going to create a system like that though ",
+        "ts": "1485471296.000024"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "Im sure there is a polling API some where and then just front end UI stuff",
+        "ts": "1485472513.000025"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "<https:\/\/github.com\/strawpoll\/strawpoll\/wiki\/API>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "strawpoll\/strawpoll",
+                "title_link": "https:\/\/github.com\/strawpoll\/strawpoll\/wiki\/API",
+                "text": "An easy-to-use online poll creation application. <http:\/\/strawpoll.me\/>",
+                "fallback": "GitHub: strawpoll\/strawpoll",
+                "thumb_url": "https:\/\/avatars3.githubusercontent.com\/u\/12688169?v=3&s=400",
+                "from_url": "https:\/\/github.com\/strawpoll\/strawpoll\/wiki\/API",
+                "thumb_width": 161,
+                "thumb_height": 161,
+                "service_icon": "https:\/\/github.com\/apple-touch-icon.png",
+                "id": 1
+            }
+        ],
+        "ts": "1485472665.000026"
+    },
+    {
+        "type": "message",
+        "user": "U3TP1UC1X",
+        "text": "There we go",
+        "ts": "1485472677.000028"
+    },
+    {
+        "type": "message",
+        "user": "U3UN38N02",
+        "text": "Oh I see",
+        "ts": "1485472714.000029"
+    }
+]

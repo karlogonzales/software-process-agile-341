@@ -1,0 +1,19 @@
+
+Download and Install NodeJs
+
+https://nodejs.org/en/
+
+---------------------------------
+
+#How to start server using command line
+
+cd - change directory
+
+Step 1: (Locate the directory on your computer)
+  >cd software-process-agile-341
+  
+Step 2:
+  > node server
+
+  
+ ** Open browser http://localhost:3000 **
