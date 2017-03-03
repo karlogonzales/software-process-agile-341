@@ -1,3 +1,17 @@
+02/03/2017 - Framework/UI/Backend - Karlo
+  -Migrated framework to use angular-cli
+  -Implemented mongoose
+  -Defined 'question' model
+  -Created ui to display questions and answers
+  -Modified get/post functions
+  -Editied html template to utilize services
+  -Connected server to database
+  -Pushed update to migrate-cli branch
+  -Organized Project Management folder
+  
+22/02/2017 - Research - Karlo
+  -Researched how to implement MEAN using angular-cli
+
 16/02/2017 - Web Hosting - Kuan
   -Acquired a domain name
   -Acquired a web hosting service
