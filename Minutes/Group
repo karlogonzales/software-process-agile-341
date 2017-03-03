@@ -1,3 +1,13 @@
+03/03/2017 - [meeting]Team meeting 6 (with TA) - Dennis, Kuan, Karlo, Keven
+  -For next sprint we should finish implementing up to 90%
+    o Separate teacher/student UI
+    o Teacher should be able to choose if he wants to display between 2 and 5 answers choices
+    o Teacher should be able to choose what stats he wants displayed about which question 
+      >Choice between percentage, raw numbers, pie chart and bar chart
+    o Write a report including
+      > Actually implemented user stories
+      > Project Model
+
 17/02/2017 - [meeting]Sprint 2 meeting (with TA) - Karlo, Ivan, Kuan, Ankit
   *** Missing: Dennis, Keven ***
   - Talked about database
