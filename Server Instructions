@@ -10,10 +10,13 @@ https://nodejs.org/en/
 cd - change directory
 
 Step 1: (Locate the directory on your computer)
-  >cd software-process-agile-341
+  >cd <software-process-agile-341>
   
 Step 2:
-  > node server
+  >cd poll-app
+  
+Step 3:
+  > npm start
 
   
  ** Open browser http://localhost:3000 **
