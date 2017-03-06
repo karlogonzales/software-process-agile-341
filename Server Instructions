@@ -14,8 +14,11 @@ Step 1: (Locate the directory on your computer)
   
 Step 2:
   >cd poll-app
-  
+ 
 Step 3:
+  >npm install
+  
+Step 4:
   > npm start
 
   
