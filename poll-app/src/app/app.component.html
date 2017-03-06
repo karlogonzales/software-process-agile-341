@@ -3,12 +3,20 @@
   <nav class="navbar navbar-dark bg-primary">
     <div class="nav navbar-nav">
       <a routerLink="/" class="nav-item nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
-        <i class="fa fa-home"></i> Home
+        <i class="fa fa-user-o"></i> Student
       </a>
+
       <a routerLink="/about" class="nav-item nav-link" routerLinkActive="active">
         <i class="fa fa-info-circle"></i> About
       </a>
     </div>
+
+    <div class="nav navbar-nav pull-right">
+      <a routerLink="/home" class="nav-item nav-link" routerLinkActive="active">
+        <i class="fa fa-user-circle"></i> Teacher
+      </a>
+    </div>
+
   </nav>
 
   <router-outlet></router-outlet>

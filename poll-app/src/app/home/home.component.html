@@ -20,10 +20,10 @@
           <th>A</th>
           <th>B</th>
 
-          <!--
+<!--
           <th>C</th>
           <th>D</th>
-          -->
+-->
 
           <th>Action</th>
         </tr>
@@ -42,13 +42,18 @@
           <td>{{question.a_Answer}}</td>
           <td>{{question.b_Answer}}</td>
 
-          <!--
+<!--
           <td>{{question.c_Answer}}</td>
           <td>{{question.d_Answer}}</td>
-          -->
+-->
 
           <td>
-            <button class="btn btn-sm btn-warning" (click)="enableEditing(question)"><i class="fa fa-pencil"></i> Edit</button> <button class="btn btn-sm btn-danger" (click)="deleteQuestion(question)"><i class="fa fa-trash"></i> Delete</button>
+            <button class="btn btn-sm btn-warning" (click)="enableEditing(question)"><i class="fa fa-pencil"></i> Edit</button>
+            <button class="btn btn-sm btn-danger" (click)="deleteQuestion(question)"><i class="fa fa-trash"></i> Delete</button>
+
+            <!--<button class="btn btn-sm btn-danger" (click)="resetQuestion(question)"><i class="fa fa-trash"></i> Reset</button>
+            -->
+
           </td>
         </tr>
       </tbody>
@@ -65,16 +70,16 @@
               <div class="form-group">
                 <input class="form-control" type="text" name="b_Answer" [(ngModel)]="question.b_Answer" placeholder="Answer" required>
               </div>
-              <!--
 
+<!--
               <div class="form-group">
-                <input class="form-control" type="number" name="age" [(ngModel)]="cat.age" placeholder="Age" min="0" required>
+                <input class="form-control" type="text" name="c_Answer" [(ngModel)]="question.c_Answer" placeholder="Answer" required>
               </div>
               <div class="form-group">
-                <input class="form-control" type="number" name="weight" [(ngModel)]="cat.weight" placeholder="Weight" step="any" min="0" required>
+                <input class="form-control" type="text" name="d_Answer" [(ngModel)]="question.d_Answer" placeholder="Answer" required>
               </div>
+-->
 
-              -->
               <button class="btn btn-sm btn-primary" type="submit" [disabled]="!form.form.valid"><i class="fa fa-floppy-o"></i> Save</button>
             </form>
             <button class="btn btn-sm btn-warning" (click)="cancelEditing()"><i class="fa fa-times"></i> Cancel</button>
@@ -98,15 +103,12 @@
       <div class="form-group">
         <input class="form-control" type="text" name="b_Answer" formControlName="b_Answer" placeholder="Answer">
       </div>
-
-      <!--
       <div class="form-group">
         <input class="form-control" type="text" name="c_Answer" formControlName="c_Answer" placeholder="Answer">
       </div>
       <div class="form-group">
         <input class="form-control" type="text" name="d_Answer" formControlName="d_Answer" placeholder="Answer">
       </div>
-       -->
 
       <button class="btn btn-primary" type="submit" [disabled]="!addQuestionForm.valid"><i class="fa fa-floppy-o"></i> Add</button>
     </form>
