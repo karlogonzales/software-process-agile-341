@@ -1,10 +1,10 @@
-import { Component, OnInit } from '@angular/core';
-import { Http } from '@angular/http';
-import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
+import {Component, OnInit} from '@angular/core';
+import {Http} from '@angular/http';
+import {FormGroup, FormControl, Validators, FormBuilder} from '@angular/forms';
 
-import { ToastComponent } from '../shared/toast/toast.component';
+import {ToastComponent} from '../shared/toast/toast.component';
 
-import { DataService } from '../services/data.service';
+import {DataService} from '../services/data.service';
 
 @Component({
   selector: 'app-home',
@@ -23,16 +23,18 @@ export class HomeComponent implements OnInit {
   name = new FormControl('', Validators.required);
   a_Answer = new FormControl('', Validators.required);
   b_Answer = new FormControl('', Validators.required);
-
-  /*
   c_Answer = new FormControl('', Validators.required);
   d_Answer = new FormControl('', Validators.required);
-  */
+  a_Freq = 0;
+  b_Freq = 0;
+  c_Freq = 0;
+  d_Freq = 0;
 
   constructor(private http: Http,
               private dataService: DataService,
               public toast: ToastComponent,
-              private formBuilder: FormBuilder) { }
+              private formBuilder: FormBuilder) {
+  }
 
   ngOnInit() {
     this.getQuestions();
@@ -41,10 +43,12 @@ export class HomeComponent implements OnInit {
       name: this.name,
       a_Answer: this.a_Answer,
       b_Answer: this.b_Answer,
-      /*
       c_Answer: this.c_Answer,
-      d_Answer: this.d_Answer
-      */
+      d_Answer: this.d_Answer,
+      a_Freq: this.a_Freq,
+      b_Freq: this.b_Freq,
+      c_Freq: this.c_Freq,
+      d_Freq: this.d_Freq
     });
   }
 
@@ -68,6 +72,21 @@ export class HomeComponent implements OnInit {
     );
   }
 
+//FIX ME!!!!!!!!!!!!!
+
+  resetQuestion(question) {
+    this.dataService.editQuestion(question).subscribe(
+      res => {
+        this.a_Freq = 0;
+        this.b_Freq = 0;
+        this.c_Freq = 0;
+        this.d_Freq = 0;
+        this.toast.setMessage('Data reset', 'success');
+      },
+      error => console.log(error)
+    );
+  }
+
   enableEditing(question) {
     this.isEditing = true;
     this.question = question;
@@ -83,20 +102,22 @@ export class HomeComponent implements OnInit {
 
   editQuestion(question) {
     this.dataService.editQuestion(question).subscribe(
-      res => {
-        this.isEditing = false;
-        this.question = question;
-        this.toast.setMessage('item edited successfully.', 'success');
-      },
-      error => console.log(error)
-    );
+        res => {
+          this.isEditing = false;
+          this.question = question;
+          this.toast.setMessage('item edited successfully.', 'success');
+        },
+        error => console.log(error)
+      );
   }
 
   deleteQuestion(question) {
     if (window.confirm("Are you sure you want to permanently delete this item?")) {
       this.dataService.deleteQuestion(question).subscribe(
         res => {
-          const pos = this.questions.map(elem => { return elem._id; }).indexOf(question._id);
+          const pos = this.questions.map(elem => {
+            return elem._id;
+          }).indexOf(question._id);
           this.questions.splice(pos, 1);
           this.toast.setMessage('item deleted successfully.', 'success');
         },

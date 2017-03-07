@@ -1,0 +1,44 @@
+<div class="card" *ngIf="isLoading">
+  <h4 class="card-header">Loading...</h4>
+  <div class="card-block text-xs-center">
+    <i class="fa fa-circle-o-notch fa-spin fa-3x"></i>
+  </div>
+
+<div class="card" *ngIf="!isLoading">
+  <div class="md-card-title">
+    <div class="card-block text-md-center" *ngFor="let question of questions">
+      <form>
+        <fieldset class="form-group">
+          <h1>{{question.name}}</h1>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="a_Freq"
+                     checked>
+              {{question.a_Answer}}
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="b_Freq">
+              {{question.b_Answer}}
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="c_Freq">
+              {{question.c_Answer}}
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="d_Freq">
+              {{question.d_Answer}}
+            </label>
+          </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
