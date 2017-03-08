@@ -16,7 +16,12 @@ export class StudentComponent implements OnInit {
 
   question = {};
 
-
+  addQuestionForm: FormGroup;
+  name = new FormControl('', Validators.required);
+  a_Answer = new FormControl('', Validators.required);
+  b_Answer = new FormControl('', Validators.required);
+  c_Answer = new FormControl('', Validators.required);
+  d_Answer = new FormControl('', Validators.required);
 
   constructor(private http: Http,
               private dataService: DataService,
@@ -25,6 +30,14 @@ export class StudentComponent implements OnInit {
 
   ngOnInit() {
     this.getQuestions();
+
+    this.addQuestionForm = this.formBuilder.group({
+      name: this.name,
+      a_Answer: this.a_Answer,
+      b_Answer: this.b_Answer,
+      c_Answer: this.c_Answer,
+      d_Answer: this.d_Answer
+    });
   }
 
   getQuestions() {
@@ -34,5 +47,6 @@ export class StudentComponent implements OnInit {
       () => this.isLoading = false
     );
   }
+
 
 }
