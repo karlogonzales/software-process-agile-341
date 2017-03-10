@@ -1,3 +1,30 @@
+09/03/2017 - Project Management - Kuan
+  -Updated Sprint 4 tasks
+  -Created block diagram
+  -Created testing scheme
+
+09/03/2017 - UI - Ankit
+  -Fixed multiple choice scaling for teacher tab
+  -Created burndown chart
+  
+09/03/2017 - UI/Backend - Dennis
+  -Created Log in Page
+  -Created test UI for log in
+  -Created routing functions
+  -Created implemented authetification
+  -Tested Log in
+  -Uploaded to github
+  
+06/03/2017 - Backend - Ivan
+  -Figured out how to deploy MEAN stack
+  -Used angular-cli to creat build folder
+  -Aquired hosting / URL
+  
+03/03/2017 - UI/Backend - Karlo
+  -Created Student tab
+  -Created Teacher tab
+  -Implemented test display for student tab
+  
 02/03/2017 - Framework/UI/Backend - Karlo
   -Migrated framework to use angular-cli
   -Implemented mongoose
