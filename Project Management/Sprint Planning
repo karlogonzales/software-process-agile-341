@@ -1,5 +1,15 @@
  Planned tasks for current sprint
  
+ Sprint #4 (10/03/17 - 24/03/17)
+	 o Implement all the components of the webapp
+		  -login component
+ 	o Polish all components of the webapp
+	 	 -login component
+	 	 -student component
+ 		 -teacher component
+	 o Begin testing
+	 o Everybody needs to be there (absentees looses grades)
+ 
  Sprint #3 (17/02/17 - 03/03/17)
    o Have an admin system
    o two different interface/page (One for the TA, one for the students)
