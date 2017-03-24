@@ -6,37 +6,22 @@
 </div>
 
 <div class="card" *ngIf="!isLoading">
+
   <div class="card-block text-md-center" *ngFor="let question of questions">
     <form>
       <fieldset class="form-group">
         <h1>{{question.name}}</h1>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1"
-                   checked>
-            {{question.a_Answer}}
-          </label>
+
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqA(question)">{{question.a_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqB(question)">{{question.b_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqC(question)">{{question.c_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqD(question)">{{question.d_Answer}}</button>
         </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-            {{question.b_Answer}}
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
-            {{question.c_Answer}}
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option4">
-            {{question.d_Answer}}
-          </label>
-        </div>
+
+
       </fieldset>
-      <button type="submit" class="btn btn-primary">Submit</button>
+
     </form>
   </div>
 </div>
