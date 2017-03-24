@@ -22,6 +22,10 @@ export class StudentComponent implements OnInit {
   b_Answer = new FormControl('', Validators.required);
   c_Answer = new FormControl('', Validators.required);
   d_Answer = new FormControl('', Validators.required);
+  a_Freq = new FormControl('', Validators.required);
+  b_Freq = new FormControl('', Validators.required);
+  c_Freq = new FormControl('', Validators.required);
+  d_Freq = new FormControl('', Validators.required);
 
   constructor(private http: Http,
               private dataService: DataService,
@@ -36,7 +40,11 @@ export class StudentComponent implements OnInit {
       a_Answer: this.a_Answer,
       b_Answer: this.b_Answer,
       c_Answer: this.c_Answer,
-      d_Answer: this.d_Answer
+      d_Answer: this.d_Answer,
+      a_Freq: this.a_Freq,
+      b_Freq: this.b_Freq,
+      c_Freq: this.c_Freq,
+      d_Freq: this.d_Freq
     });
   }
 
@@ -45,6 +53,50 @@ export class StudentComponent implements OnInit {
       data => this.questions = data,
       error => console.log(error),
       () => this.isLoading = false
+    );
+  }
+
+  incrementFreqA(question) {
+
+    question.a_Freq = question. a_Freq + 1;
+    this.dataService.editQuestion(question).subscribe(
+      res => {
+        this.question = question;
+      },
+      error => console.log(error)
+    );
+  }
+
+  incrementFreqB(question) {
+
+    question.b_Freq = question. b_Freq + 1;
+    this.dataService.editQuestion(question).subscribe(
+      res => {
+        this.question = question;
+      },
+      error => console.log(error)
+    );
+  }
+
+  incrementFreqC(question) {
+
+    question.c_Freq = question. c_Freq + 1;
+    this.dataService.editQuestion(question).subscribe(
+      res => {
+        this.question = question;
+      },
+      error => console.log(error)
+    );
+  }
+
+  incrementFreqD(question) {
+
+    question.d_Freq = question. d_Freq + 1;
+    this.dataService.editQuestion(question).subscribe(
+      res => {
+        this.question = question;
+      },
+      error => console.log(error)
     );
   }
 

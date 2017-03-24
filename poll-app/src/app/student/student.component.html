@@ -6,37 +6,39 @@
 </div>
 
 <div class="card" *ngIf="!isLoading">
+
   <div class="card-block text-md-center" *ngFor="let question of questions">
     <form>
+      <button class="btn-default" (click)="incrementQuestion(question)"> Increment</button>
       <fieldset class="form-group">
         <h1>{{question.name}}</h1>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1"
-                   checked>
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" (click)="incrementFreqA(question)"
+                   checked >
             {{question.a_Answer}}
           </label>
         </div>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" (click)="incrementFreqB(question)">
             {{question.b_Answer}}
           </label>
         </div>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" (click)="question.incrementFreqC(question)">
             {{question.c_Answer}}
           </label>
         </div>
         <div class="form-check">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" value="option4">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios4" (click)="question.incrementFreqD(question)">
             {{question.d_Answer}}
           </label>
         </div>
       </fieldset>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary" >Submit</button>
     </form>
   </div>
 </div>
