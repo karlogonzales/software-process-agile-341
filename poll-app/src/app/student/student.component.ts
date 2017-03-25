@@ -13,6 +13,7 @@ export class StudentComponent implements OnInit {
 
   questions = [];
   isLoading = true;
+  currentQuestionNumber = 0;
 
   question = {};
 
@@ -52,8 +53,14 @@ export class StudentComponent implements OnInit {
     this.dataService.getQuestions().subscribe(
       data => this.questions = data,
       error => console.log(error),
-      () => this.isLoading = false
     );
+    
+    this.isLoading = false
+  }
+
+goToNextQuestion()
+  {
+      this.currentQuestionNumber++;
   }
 
   incrementFreqA(question) {
