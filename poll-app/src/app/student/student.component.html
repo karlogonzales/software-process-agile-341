@@ -7,16 +7,16 @@
 
 <div class="card" *ngIf="!isLoading">
 
-  <div class="card-block text-md-center" *ngFor="let question of questions">
-    <form>
+  <div class="card-block text-md-center" *ngFor="let question of questions; let i=index">
+    <form [hidden]="currentQuestionNumber !== i">
       <fieldset class="form-group">
         <h1>{{question.name}}</h1>
 
         <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-          <button type="button" class="btn btn-secondary" (click)="incrementFreqA(question)">{{question.a_Answer}}</button>
-          <button type="button" class="btn btn-secondary" (click)="incrementFreqB(question)">{{question.b_Answer}}</button>
-          <button type="button" class="btn btn-secondary" (click)="incrementFreqC(question)">{{question.c_Answer}}</button>
-          <button type="button" class="btn btn-secondary" (click)="incrementFreqD(question)">{{question.d_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqA(question)" (click)="goToNextQuestion()">{{question.a_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqB(question)" (click)="goToNextQuestion()">{{question.b_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqC(question)" (click)="goToNextQuestion()">{{question.c_Answer}}</button>
+          <button type="button" class="btn btn-secondary" (click)="incrementFreqD(question)" (click)="goToNextQuestion()">{{question.d_Answer}}</button>
         </div>
 
 
