@@ -12,6 +12,6 @@ install:
 
   
 script:
-  - npm test
+  - ng test
     
 
