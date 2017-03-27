@@ -1,13 +1,13 @@
 language: node_js
+
 node_js:
-  - "iojs"
-  - "7"
-  - "6"
-  - "5"
+  - "node"
   
+  
+before_install:
+  - cd poll-app
   
 install:
-  - cd poll-app
   - npm install
 
   
