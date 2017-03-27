@@ -1,3 +1,20 @@
+26/03/2017 - UI/Backend - Karlo
+  -Added reset question feature
+  -Added chart.js libary
+  -Added chart.js script
+  -Created stats Tab
+  -Created BarchartComponent
+  -Created barchart UI
+  -Created next question feature for barcharts
+  -Tested chart functionality
+  
+24/03/2017 - Backend - Karlo/ Ivan
+  -Created function to answer click frequency in database
+  -Deployed test version with new feature
+  -Tested simultaneous access
+  -Switched radio form buttons to buttons 
+  -Disscussed ui implementation and possible improvements
+
 09/03/2017 - Project Management - Kuan
   -Updated Sprint 4 tasks
   -Created block diagram
