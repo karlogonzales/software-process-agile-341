@@ -12,9 +12,12 @@ import { DataService } from './services/data.service';
 import { ToastComponent } from './shared/toast/toast.component';
 import { StudentComponent } from './student/student.component';
 
+import { ChartsModule } from 'ng2-charts';
+import { BarchartComponent } from './barchart/barchart.component';
 const routing = RouterModule.forRoot([
     { path: '',      component: StudentComponent },
     { path: 'about', component: AboutComponent },
+    { path: 'stats', component: BarchartComponent },
     { path: 'home', component: HomeComponent }
 
 ]);
@@ -25,13 +28,15 @@ const routing = RouterModule.forRoot([
     HomeComponent,
     AboutComponent,
     ToastComponent,
-    StudentComponent
+    StudentComponent,
+    BarchartComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
+    ChartsModule,
     routing
   ],
   providers: [

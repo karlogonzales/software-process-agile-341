@@ -72,15 +72,17 @@ export class HomeComponent implements OnInit {
     );
   }
 
-//FIX ME!!!!!!!!!!!!!
+
 
   resetQuestion(question) {
+    question.a_Freq = 0;
+    question.b_Freq = 0;
+    question.c_Freq = 0;
+    question.d_Freq = 0;
     this.dataService.editQuestion(question).subscribe(
       res => {
-        this.a_Freq = 0;
-        this.b_Freq = 0;
-        this.c_Freq = 0;
-        this.d_Freq = 0;
+
+        this.question = question;
         this.toast.setMessage('Data reset', 'success');
       },
       error => console.log(error)

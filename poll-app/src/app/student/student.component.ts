@@ -65,7 +65,7 @@ goToNextQuestion()
 
   incrementFreqA(question) {
 
-    question.a_Freq = question. a_Freq + 1;
+    question.a_Freq = question.a_Freq + 1;
     this.dataService.editQuestion(question).subscribe(
       res => {
         this.question = question;
