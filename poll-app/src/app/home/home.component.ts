@@ -72,7 +72,7 @@ export class HomeComponent implements OnInit {
     );
   }
 
-//FIX ME!!!!!!!!!!!!!
+
 
   resetQuestion(question) {
     question.a_Freq = 0;

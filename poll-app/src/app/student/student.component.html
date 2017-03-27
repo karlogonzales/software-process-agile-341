@@ -24,4 +24,8 @@
 
     </form>
   </div>
+
+  <div class="card-block text-md-center" *ngIf=" currentQuestionNumber >= questions.length">
+    <h1>Finished</h1>
+  </div>
 </div>

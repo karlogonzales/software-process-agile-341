@@ -12,9 +12,9 @@ import { DataService } from '../services/data.service';
 export class BarchartComponent implements OnInit {
   questions = [];
   isLoading = true;
-
   question = {};
 
+  questionIndex = 0;
   constructor(private http: Http,
               private dataService: DataService,
               public toast: ToastComponent,
@@ -32,18 +32,20 @@ export class BarchartComponent implements OnInit {
     );
   }
 
+  nextQuestion(){
+    this.questionIndex++;
+  }
+
   public barChartOptions:any = {
     scaleShowVerticalLines: false,
     responsive: true
   };
-  public barChartLabels:string[] = ['2006', '2007', '2008', '2009', '2010', '2011', '2012'];
-  public barChartType:string = 'bar';
-  public barChartLegend:boolean = true;
 
-  public barChartData:any[] = [
-    {data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A'},
-    {data: [28, 48, 40, 19, 86, 27, 90], label: 'Series B'}
-  ];
+
+  public barChartType:string = 'bar';
+  public barChartLegend:boolean = false;
+
+
 
   // events
   public chartClicked(e:any):void {
@@ -54,24 +56,5 @@ export class BarchartComponent implements OnInit {
     console.log(e);
   }
 
-  public randomize():void {
-    // Only Change 3 values
-    let data = [
-      Math.round(Math.random() * 100),
-      59,
-      80,
-      (Math.random() * 100),
-      56,
-      (Math.random() * 100),
-      40];
-    let clone = JSON.parse(JSON.stringify(this.barChartData));
-    clone[0].data = data;
-    this.barChartData = clone;
-    /**
-     * (My guess), for Angular to recognize the change in the dataset
-     * it has to change the dataset variable directly,
-     * so one way around it, is to clone the data, change it and then
-     * assign it;
-     */
-  }
+
 }

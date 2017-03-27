@@ -8,20 +8,34 @@
 <div class="card" *ngIf="!isLoading">
 
 
-  <div>
-    <div style="display: block">
-      <canvas baseChart
-              [datasets]="barChartData"
-              [labels]="barChartLabels"
-              [options]="barChartOptions"
-              [legend]="barChartLegend"
-              [chartType]="barChartType"
-              (chartHover)="chartHovered($event)"
-              (chartClick)="chartClicked($event)">
+  <div *ngFor="let question of questions; let i=index">
+    <div [hidden]="questionIndex !== i">
+      <div class="card-block text-md-center">
+        <h2>{{question.name}}</h2>
+      </div>
+      <div style="display: block">
+        <canvas baseChart
+                [datasets]="[ {data: [question.a_Freq, question.b_Freq, question.c_Freq, question.d_Freq], label: question.name} ]"
+                [labels]="[question.a_Answer, question.b_Answer, question.c_Answer, question.d_Answer]"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)">
 
-      </canvas>
+        </canvas>
+      </div>
+
+
     </div>
-    <button (click)="randomize()">Update</button>
+
+
   </div>
 
+  <div class="card-block text-md-center" *ngIf=" questionIndex >= questions.length">
+    <h1>Finished</h1>
+  </div>
+
+  <button (click)="nextQuestion()">Next</button>
 </div>
+
