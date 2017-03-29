@@ -54,7 +54,7 @@ export class StudentComponent implements OnInit {
       data => this.questions = data,
       error => console.log(error),
     );
-    
+
     this.isLoading = false
   }
 
@@ -64,7 +64,7 @@ goToNextQuestion()
   }
 
   incrementFreqA(question) {
-
+    this.getQuestions()
     question.a_Freq = question.a_Freq + 1;
     this.dataService.editQuestion(question).subscribe(
       res => {
@@ -75,7 +75,7 @@ goToNextQuestion()
   }
 
   incrementFreqB(question) {
-
+    this.getQuestions()
     question.b_Freq = question. b_Freq + 1;
     this.dataService.editQuestion(question).subscribe(
       res => {
@@ -86,7 +86,7 @@ goToNextQuestion()
   }
 
   incrementFreqC(question) {
-
+    this.getQuestions()
     question.c_Freq = question. c_Freq + 1;
     this.dataService.editQuestion(question).subscribe(
       res => {
@@ -97,7 +97,7 @@ goToNextQuestion()
   }
 
   incrementFreqD(question) {
-
+    this.getQuestions()
     question.d_Freq = question. d_Freq + 1;
     this.dataService.editQuestion(question).subscribe(
       res => {

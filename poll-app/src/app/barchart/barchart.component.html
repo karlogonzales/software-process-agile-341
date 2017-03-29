@@ -15,7 +15,7 @@
       </div>
       <div style="display: block">
         <canvas baseChart
-                [datasets]="[ {data: [question.a_Freq, question.b_Freq, question.c_Freq, question.d_Freq], label: question.name} ]"
+                [datasets]="[ {data: [calculatePercent(question, question.a_Freq), calculatePercent(question, question.b_Freq), calculatePercent(question, question.c_Freq), calculatePercent(question, question.d_Freq)], label: question.name} ]"
                 [labels]="[question.a_Answer, question.b_Answer, question.c_Answer, question.d_Answer]"
                 [options]="barChartOptions"
                 [legend]="barChartLegend"
