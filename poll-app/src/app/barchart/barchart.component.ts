@@ -32,7 +32,14 @@ export class BarchartComponent implements OnInit {
     );
   }
 
+  calculatePercent(question, option) {
+    var total = question.a_Freq + question.b_Freq + question.c_Freq + question.d_Freq;
+
+    return Number(option / total * 100).toFixed(0);
+  }
+
   nextQuestion(){
+    this.getQuestions();
     this.questionIndex++;
   }
 
@@ -42,8 +49,8 @@ export class BarchartComponent implements OnInit {
   };
 
 
-  public barChartType:string = 'bar';
-  public barChartLegend:boolean = false;
+  public barChartType:string = 'pie';
+  public barChartLegend:boolean = true;
 
 
 
