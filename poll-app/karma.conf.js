@@ -16,12 +16,12 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     browsers: [
-      'Chrome', 'Chrome_without_security'
+      'Chrome', 'ChromeCanary'
     ],
     customLaunchers: {
-      Chrome_without_security: {
+      Chrome_travis_ci: {
         base: 'Chrome',
-        flags: ['--disable-web-security']
+        flags: ['--no-sandbox']
       }
     },
     files: [
