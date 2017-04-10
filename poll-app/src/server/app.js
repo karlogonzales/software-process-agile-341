@@ -2,7 +2,11 @@ var express = require('express');
 var path = require('path');
 var morgan = require('morgan'); // logger
 var bodyParser = require('body-parser');
-
+var favicon = require('serve-favicon');
+var logger = require('morgan');
+var cookieParser = require('cookie-parser');
+var appRoutes = require('../routes/app');
+var userRoutes = require('../routes/user');
 var app = express();
 app.set('port', (process.env.PORT || 3000));
 
@@ -18,7 +22,14 @@ mongoose.connect('mongodb://soen341ub2:soen341ub2@ds145669.mlab.com:45669/teache
 var db = mongoose.connection;
 mongoose.Promise = global.Promise;
 
+app.use(logger('dev'));
+app.use(cookieParser());
 // Models
+
+app.use('/user', userRoutes);
+app.use('/', appRoutes);
+
+
 var Question = require('./question.model.js');
 
 db.on('error', console.error.bind(console, 'connection error:'));
