@@ -15,6 +15,15 @@ module.exports = function (config) {
     client:{
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
+    browsers: [
+      'Chrome', 'Chrome_without_security'
+    ],
+    customLaunchers: {
+      Chrome_without_security: {
+        base: 'Chrome',
+        flags: ['--disable-web-security']
+      }
+    },
     files: [
       { pattern: './src/test.ts', watched: false }
     ],
