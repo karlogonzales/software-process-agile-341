@@ -15,6 +15,15 @@ module.exports = function (config) {
     client:{
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
+    browsers: [
+      'Chrome', 'ChromeCanary'
+    ],
+    customLaunchers: {
+      Chrome_travis_ci: {
+        base: 'Chrome',
+        flags: ['--no-sandbox']
+      }
+    },
     files: [
       { pattern: './src/test.ts', watched: false }
     ],
@@ -41,4 +50,8 @@ module.exports = function (config) {
     browsers: ['Chrome'],
     singleRun: false
   });
+
+  if(process.env.TRAVIS){
+    config.browsers = ['Chrome_travis_ci'];
+  }
 };
