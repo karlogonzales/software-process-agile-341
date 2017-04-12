@@ -23,8 +23,8 @@ export class HomeComponent implements OnInit {
   name = new FormControl('', Validators.required);
   a_Answer = new FormControl('', Validators.required);
   b_Answer = new FormControl('', Validators.required);
-  c_Answer = new FormControl('', Validators.required);
-  d_Answer = new FormControl('', Validators.required);
+  c_Answer = new FormControl('');
+  d_Answer = new FormControl('');
   a_Freq = 0;
   b_Freq = 0;
   c_Freq = 0;
