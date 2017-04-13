@@ -8,8 +8,8 @@
 <div class="card" *ngIf="!isLoading">
 
 
-  <div *ngFor="let question of questions; let i=index">
-    <div [hidden]="questionIndex !== i">
+  <div *ngFor="let question of questions">
+
       <div class="card-block text-md-center">
         <h2>{{question.name}}</h2>
       </div>
@@ -27,15 +27,14 @@
       </div>
 
 
-    </div>
 
 
   </div>
 
-  <div class="card-block text-md-center" *ngIf=" questionIndex >= questions.length">
+  <!--div class="card-block text-md-center" *ngIf=" questionIndex >= questions.length">
     <h1>Finished</h1>
   </div>
 
-  <button (click)="nextQuestion()">Next</button>
+  <button (click)="nextQuestion()">Next</button-->
 </div>
 

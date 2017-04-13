@@ -14,7 +14,6 @@ export class StudentComponent implements OnInit {
   questions = [];
   isLoading = true;
   currentQuestionNumber = 0;
-
   question = {};
 
   addQuestionForm: FormGroup;
