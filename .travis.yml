@@ -6,7 +6,7 @@ node_js:
 
 # script: 
 
-# node_modules/karma/bin/karma start test/karma.conf.js --single-run
+
   
 before_install:
   - cd poll-app
@@ -19,6 +19,6 @@ install:
 
   
 script:
-  - ng test
-    
+  # - ng test
+  - node_modules/karma/bin/karma start test/karma.conf.js --single-run
 
