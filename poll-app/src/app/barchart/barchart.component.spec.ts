@@ -19,7 +19,5 @@ describe('BarchartComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+
 });
