@@ -5,36 +5,31 @@
   </div>
 </div>
 
-<div class="card" *ngIf="!isLoading">
-
-
+<div  *ngIf="!isLoading">
+<div class="card-block">
+        <button class="btn btn-info m-x-auto d-block" (click)="switchChart()" >Change chart type</button>
+</div>
   <div *ngFor="let question of questions">
 
       <div class="card-block text-md-center">
         <h2>{{question.name}}</h2>
       </div>
+
       <div style="display: block">
+
         <canvas baseChart
-                [datasets]="[ {data: [calculatePercent(question, question.a_Freq), calculatePercent(question, question.b_Freq), calculatePercent(question, question.c_Freq), calculatePercent(question, question.d_Freq)], label: question.name} ]"
+                [datasets]="[ {data: [calculatePercent(question, question.a_Freq), calculatePercent(question, question.b_Freq),
+                                      calculatePercent(question, question.c_Freq), calculatePercent(question, question.d_Freq)], label: question.name} ]"
                 [labels]="[question.a_Answer, question.b_Answer, question.c_Answer, question.d_Answer]"
-                [options]="barChartOptions"
-                [legend]="barChartLegend"
-                [chartType]="barChartType"
+                [options]="chartOptions"
+                [legend]="chartLegend"
+                [chartType]="chartType"
                 (chartHover)="chartHovered($event)"
                 (chartClick)="chartClicked($event)">
-
         </canvas>
+
       </div>
 
-
-
-
   </div>
-
-  <!--div class="card-block text-md-center" *ngIf=" questionIndex >= questions.length">
-    <h1>Finished</h1>
-  </div>
-
-  <button (click)="nextQuestion()">Next</button-->
 </div>
 

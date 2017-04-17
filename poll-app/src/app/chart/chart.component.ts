@@ -1,24 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
-import { FormGroup, FormControl, Validators, FormBuilder } from '@angular/forms';
 import { ToastComponent } from '../shared/toast/toast.component';
 import { DataService } from '../services/data.service';
 
 @Component({
   selector: 'app-barchart',
-  templateUrl: './barchart.component.html',
-  styleUrls: ['./barchart.component.css']
+  templateUrl: 'chart.component.html',
+  styleUrls: ['chart.component.css']
 })
-export class BarchartComponent implements OnInit {
+export class ChartComponent implements OnInit {
   questions = [];
   isLoading = true;
   question = {};
-
   questionIndex = 0;
+
   constructor(private http: Http,
               private dataService: DataService,
-              public toast: ToastComponent,
-              private formBuilder: FormBuilder) { }
+              public toast: ToastComponent) { }
 
   ngOnInit() {
     this.getQuestions();
@@ -43,14 +41,25 @@ export class BarchartComponent implements OnInit {
     this.questionIndex++;
   }
 
-  public barChartOptions:any = {
+  switchChart(){
+    if(this.chartType =='pie')
+      this.chartType = 'bar'
+    else
+      this.chartType ='pie'
+  }
+
+
+  public chartOptions:any = {
     scaleShowVerticalLines: false,
     responsive: true
   };
 
 
-  public barChartType:string = 'pie';
-  public barChartLegend:boolean = true;
+
+
+  public chartType:string = 'pie';
+
+  public chartLegend:boolean = true;
 
 
 

@@ -52,6 +52,7 @@ export class HomeComponent implements OnInit {
     });
   }
 
+
   getQuestions() {
     this.dataService.getQuestions().subscribe(
       data => this.questions = data,

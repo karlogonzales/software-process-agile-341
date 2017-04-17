@@ -17,11 +17,11 @@ import { ToastComponent } from './shared/toast/toast.component';
 import { StudentComponent } from './student/student.component';
 
 import { ChartsModule } from 'ng2-charts';
-import { BarchartComponent } from './barchart/barchart.component';
+import { ChartComponent } from './chart/chart.component';
 const routing = RouterModule.forRoot([
     { path: '',      component: StudentComponent },
     { path: 'about', component: AboutComponent },
-    { path: 'stats', component: BarchartComponent },
+    { path: 'stats', component: ChartComponent },
     { path: 'home', component: HomeComponent },
     { path: 'auth', component: AuthenticationComponent},
    { path: 'auth/signup', component: SignupComponent },
@@ -37,7 +37,7 @@ const routing = RouterModule.forRoot([
     AboutComponent,
     ToastComponent,
     StudentComponent,
-    BarchartComponent,
+    ChartComponent,
     AuthenticationComponent,
     LogoutComponent,
     SignupComponent,
