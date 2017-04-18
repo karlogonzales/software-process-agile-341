@@ -17,11 +17,19 @@ describe('StudentComponent', () => {
       component = fixture.componentInstance;
       fixture.detectChanges();
     });
+
+
   }));
 
   it('should create the app', async(() => {
     expect(component).toBeTruthy();
   }));
+
+  it('should be incremented', () =>
+  {
+    component.incrementFreqA(component.question)
+    component.question[0]
+  })
 
 
 });

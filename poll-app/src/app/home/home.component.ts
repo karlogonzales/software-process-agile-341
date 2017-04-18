@@ -3,7 +3,7 @@ import {Http} from '@angular/http';
 import {FormGroup, FormControl, Validators, FormBuilder} from '@angular/forms';
 
 import {ToastComponent} from '../shared/toast/toast.component';
-
+import { AuthenticationComponent } from '../auth/authentication.component'
 import {DataService} from '../services/data.service';
 
 @Component({
