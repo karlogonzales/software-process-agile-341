@@ -50,8 +50,8 @@ export class ChartComponent implements OnInit {
 
 
   public chartOptions:any = {
-    scaleShowVerticalLines: false,
-    responsive: true
+    responsive: true,
+    maintainAspectRatio: false
   };
 
 

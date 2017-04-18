@@ -6,8 +6,8 @@
 </div>
 
 <div  *ngIf="!isLoading">
-<div class="card-block">
-        <button class="btn btn-info m-x-auto d-block" (click)="switchChart()" >Change chart type</button>
+<div class="card-block container text-xs-center">
+        <button class="btn btn-info" (click)="switchChart()" >Pie Chart / Bar Chart</button>
 </div>
   <div *ngFor="let question of questions">
 
@@ -15,7 +15,7 @@
         <h2>{{question.name}}</h2>
       </div>
 
-      <div style="display: block">
+      <div class="card-block text-xs-center" style="margin-bottom: 20px">
 
         <canvas baseChart
                 [datasets]="[ {data: [calculatePercent(question, question.a_Freq), calculatePercent(question, question.b_Freq),
@@ -27,6 +27,8 @@
                 (chartHover)="chartHovered($event)"
                 (chartClick)="chartClicked($event)">
         </canvas>
+
+        <h4>Total: {{question.a_Freq + question.b_Freq + question.c_Freq + question.d_Freq}}</h4>
 
       </div>
 

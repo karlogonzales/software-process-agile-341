@@ -12,7 +12,6 @@ export class StudentComponent implements OnInit {
   isLoading = true;
   currentQuestionNumber = 0;
   question = {};
-
   constructor(private http: Http,
               private dataService: DataService) { }
 
@@ -26,9 +25,9 @@ export class StudentComponent implements OnInit {
       data => this.questions = data,
       error => console.log(error),
     );
-
     this.isLoading = false
   }
+
 
 goToNextQuestion()
   {
@@ -48,7 +47,7 @@ goToNextQuestion()
 
   incrementFreqB(question) {
     this.getQuestions()
-    question.b_Freq = question. b_Freq + 1;
+    question.b_Freq = question.b_Freq + 1;
     this.dataService.editQuestion(question).subscribe(
       res => {
         this.question = question;
