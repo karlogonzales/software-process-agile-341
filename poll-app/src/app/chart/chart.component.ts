@@ -13,6 +13,7 @@ export class ChartComponent implements OnInit {
   isLoading = true;
   question = {};
   questionIndex = 0;
+  chartSelect = true;
 
   constructor(private http: Http,
               private dataService: DataService,
@@ -42,10 +43,13 @@ export class ChartComponent implements OnInit {
   }
 
   switchChart(){
-    if(this.chartType =='pie')
-      this.chartType = 'bar'
-    else
-      this.chartType ='pie'
+    if(this.chartType =='pie') {
+      this.chartType = 'bar';
+      this.chartSelect = false;
+    }else {
+      this.chartType = 'pie';
+      this.chartSelect = true;
+    }
   }
 
 

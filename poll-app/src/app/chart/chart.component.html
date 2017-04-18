@@ -5,11 +5,12 @@
   </div>
 </div>
 
-<div  *ngIf="!isLoading">
-<div class="card-block container text-xs-center">
-        <button class="btn btn-info" (click)="switchChart()" >Pie Chart / Bar Chart</button>
-</div>
-  <div *ngFor="let question of questions">
+<div *ngIf="!isLoading">
+  <div class="card-block container text-xs-center">
+    <button class="btn btn-info" (click)="switchChart()">Pie Chart / Bar Chart</button>
+  </div>
+  <div *ngIf="chartSelect">
+    <div *ngFor="let question of questions">
 
       <div class="card-block text-md-center">
         <h2>{{question.name}}</h2>
@@ -31,7 +32,31 @@
         <h4>Total: {{question.a_Freq + question.b_Freq + question.c_Freq + question.d_Freq}}</h4>
 
       </div>
+    </div>
+  </div>
+  <div *ngIf="!chartSelect">
+    <div *ngFor="let question of questions">
 
+      <div class="card-block text-md-center">
+        <h2>{{question.name}}</h2>
+      </div>
+
+      <div class="card-block text-xs-center" style="margin-bottom: 20px">
+
+        <canvas baseChart
+                [datasets]="[ {data: [question.a_Freq, question.b_Freq, question.c_Freq, question.d_Freq], label: question.name} ]"
+                [labels]="[question.a_Answer, question.b_Answer, question.c_Answer, question.d_Answer]"
+                [options]="chartOptions"
+                [legend]="chartLegend"
+                [chartType]="chartType"
+                (chartHover)="chartHovered($event)"
+                (chartClick)="chartClicked($event)">
+        </canvas>
+
+        <h4>Total: {{question.a_Freq + question.b_Freq + question.c_Freq + question.d_Freq}}</h4>
+
+      </div>
+    </div>
   </div>
 </div>
 
